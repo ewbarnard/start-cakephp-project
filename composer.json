@@ -19,9 +19,7 @@
     "dflydev/markdown": "~1.0",
     "erusev/parsedown": "~1.0",
     "league/commonmark": "*",
-    "ext-xdebug": ">=2.2.1",
-    "ext-uopz": "*",
-    "phpunit/php-invoker": "~1.1"
+    "phpunit/php-invoker": "~1.1.1"
   },
   "repositories": [
     {
@@ -29,5 +27,9 @@
       "url": "git@github.com:ewbarnard/app.git"
     }
   ],
+  "scripts": {
+  "post-install-cmd": "App\\Console\\Installer::postInstall",
+  "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+},
   "minimum-stability": "dev"
 }
