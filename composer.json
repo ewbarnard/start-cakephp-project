@@ -7,8 +7,8 @@
     "cakephp/app": "dev-master as 3.0.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
-    "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP."
+    "phpunit/phpunit": "^4.6",
+    "cakephp/cakephp-codesniffer": "^2.0.0"
   },
   "repositories": [
     {
