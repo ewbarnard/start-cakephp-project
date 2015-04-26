@@ -4,7 +4,7 @@
   "type": "project",
   "license": "MIT",
   "require": {
-    "cakephp/app": "ewbarnard-v0.1.1 as 3.0.1"
+    "cakephp/app": "v0.1.0 as 3.0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
