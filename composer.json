@@ -4,7 +4,7 @@
   "type": "project",
   "license": "MIT",
   "require": {
-    "cakephp/app": "@dev"
+    "cakephp/app": "dev-master as 3.0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
@@ -16,6 +16,5 @@
       "url": "git@github.com:ewbarnard/app.git"
     }
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  "minimum-stability": "dev"
 }
