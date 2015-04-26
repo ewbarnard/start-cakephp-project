@@ -13,10 +13,8 @@
 
   },
   "require-dev": {
-    "psy/psysh": "@stable",
     "cakephp/debug_kit": "~3.0",
     "cakephp/bake": "~1.0",
-    "dflydev/markdown": "~1.0",
     "erusev/parsedown": "~1.0",
     "league/commonmark": "*"
   },
