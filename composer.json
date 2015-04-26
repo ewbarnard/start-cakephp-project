@@ -18,8 +18,7 @@
     "cakephp/bake": "~1.0",
     "dflydev/markdown": "~1.0",
     "erusev/parsedown": "~1.0",
-    "league/commonmark": "*",
-    "phpunit/php-invoker": "~1.1.1"
+    "league/commonmark": "*"
   },
   "repositories": [
     {
