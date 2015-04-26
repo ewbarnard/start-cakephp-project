@@ -1,0 +1,21 @@
+{
+  "name": "ewbarnard/start-cakephp-project",
+  "description": "Load Modified CakePHP skeleton app",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "cakephp/app": "ewbarnard-v0.1.1 as 3.0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
+    "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP."
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:ewbarnard/app.git"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
